@@ -22,6 +22,18 @@ h1, h2{
 h1{
   display: inline-block;
   font-size: 40px;
+  position: absolute;
+  left: 75px;
+}
+mark{
+  color: #26669C;
+  background-color: white;
+}
+header:last-child{
+  vertical-align: middle;
+}
+header h2{
+  height: 60px;
 }
 aside{
   width: 300px;
@@ -36,16 +48,40 @@ aside{
 .center{
   width: 500px;
   display: inline-block;
+  vertical-align: top;
 }
 .home, .phone{
   display: inline-block;
 }
+.homephone{
+  position: relative;
+  height: 60px;
+}
+.phone{
+  right: 0px;
+  position: absolute;
+}
 .home img{
   height: 15px;
+  display: inline-block;
+}
+.home h6{
+  display: inline-block;
+  color: #789DBC;
+  font-size: 15px;
+  font-weight: normal;
 }
 .phone img{
-  height: 50px;
+  height: 55px;
   display: inline-block;
+}
+.tiny{
+  font-size: 12px;
+}
+.phonenum{
+  color: #00C0DD;
+  font-weight: bold;
+  font-size: 25px;
 }
 .info{
   display: inline-block;
