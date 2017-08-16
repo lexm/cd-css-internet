@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>The Inter<mark>net</mark></title>
+  <title>The Internet</title>
 </head>
 <body>
   <header>
@@ -18,14 +18,15 @@
   <main>
     <aside>
       <section>
-        <h3>So, what's an internet?</h3>
+        <h3>So, what's an <span>internet?</span></h3>
         <p>
           An <mark>inter</mark>connected <mark>Net</mark>work of
           computers all around the world!
         </p>
-        <button>WATCH A VIDEO</button>
-        <button>MORE RESOURCES</button>
+        <button class="vid-btn">WATCH A VIDEO</button>
+        <button class="more-btn">MORE RESOURCES</button>
       </section>
+      <hr>
       <section class="ad">
         <h2>Reinvent your career in just 14 weeks</h2>
         <img src="images/ninja.png" alt="">
@@ -65,7 +66,7 @@
             devices (for example, your computer connected to your Wi-Fi, or
             your phone connected to your mobile network) and <mark>
             Web-accessing software</mark> available on those devices (usually
-            a web borwser like Firefox or Chrome).
+            a web browser like Firefox or Chrome).
           </li>
           <li>
             <mark>Servers</mark> are computers that store <mark>webpages
@@ -90,12 +91,32 @@
             server asking it to send a copy of the website to the client.
           </li>
           <li>
-            If the server
+            If the server approves the client's request, the server sends
+            the client a <mark>"200 OK" message</mark>, which means
+            "Permission granted! Here you go.", and then starts sending
+            the website's files to the browser as a series of small chunks.
           </li>
-          <li></li>
+          <li>
+            The browser assembles the small chunks into a complete website
+            and displays it to you!
+          </li>
         </ol>
       </section>
-      <section></section>
+      <section>
+        <img src="images/html.png" alt="">
+        <div>
+          <h3>The Big 3 - HTML, CSS, JavaScript</h3>
+          <p>
+            While the server can process information in many different
+            languages, the files that they server to the client are
+            <i>always</i> going to be some combination of HTML, CSS,
+            and JavaScript!
+          </p>
+          <p>
+            Learn more about the Big 3 <a href="#">here</a>!
+          </p>
+        </div>
+      </section>
     </div>
   </main>
 </body>

@@ -36,8 +36,37 @@ header h2{
   height: 60px;
 }
 aside{
-  width: 300px;
+  width: 200px;
   display: inline-block;
+  margin:20px;
+}
+aside span{
+  color: red;
+}
+aside button{
+  display: block;
+  margin: auto;
+  height: 30px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  color: white;
+}
+aside img{
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ad h2{
+  text-align: center;
+}
+.vid-btn{
+  background: linear-gradient(#6599C2,#27679C);
+  width: 100%;
+}
+.more-btn{
+  background: linear-gradient(#E9AD5E,#EE7201);
+  width: 100%;
 }
 .ad{
   background-image: url("images/ad_background.png");
@@ -50,10 +79,13 @@ aside{
   display: inline-block;
   vertical-align: top;
 }
+h3{
+  color: #26669C;
+}
 .home, .phone{
   display: inline-block;
 }
-.homephone{
+.center section:first-child{
   position: relative;
   height: 60px;
 }
@@ -76,7 +108,7 @@ aside{
   display: inline-block;
 }
 .tiny{
-  font-size: 12px;
+  font-size: 10px;
 }
 .phonenum{
   color: #00C0DD;
@@ -85,4 +117,30 @@ aside{
 }
 .info{
   display: inline-block;
+}
+.center section{
+  margin: 10px;
+}
+.center ul, .center ol{
+  margin-left: 20px;
+}
+.center section:nth-child(2) img{
+  height: 100px;
+}
+.center section:last-child{
+  border-width: 3px 3px 0px 3px;
+  border-color: #0087DD;
+  border-style: solid;
+}
+.center section:last-child img{
+  height: 100px;
+  display: inline-block;
+}
+.center section:last-child div{
+  width: 350px;
+  display: inline-block;
+}
+.center section:nth-child(2n) p, .center section li{
+  font-size: 12px;
+  margin: 5px 0px;
 }
