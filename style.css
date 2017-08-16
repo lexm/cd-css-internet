@@ -30,7 +30,7 @@ h1{
 }
 mark{
   color: #26669C;
-  background-color: white;
+  background-color: inherit;
 }
 header section:last-child{
   position: relative;
@@ -44,6 +44,9 @@ header h2{
   top: 16px;
   left:20px;
   color: white;
+}
+main{
+  background: linear-gradient(#E3E3E3,#FFFFFF,#FFFFFF,#FFFFFF,#FFFFFF);
 }
 aside{
   width: 250px;
@@ -163,11 +166,14 @@ h3{
 .center section:last-child img{
   height: 100px;
   display: inline-block;
+  margin: 10px;
 }
 .center section:last-child div{
-  width: 480px;
+  width: 450px;
   display: inline-block;
   margin-left: 10px;
+  vertical-align: top;
+  margin-top: 15px;
 }
 .center section:nth-child(2n) p, .center section li{
   font-size: 12px;
