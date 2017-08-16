@@ -6,15 +6,18 @@
 body{
   font-family: "Arial", "Helvetica", "san serif";
   width: 950px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .globe{
-  height: 100px;
+  height: 60px;
   position: relative;
 }
 .globe img{
   height: 75px;
   display: inline-block;
   position: absolute;
+  z-index: 1;
 }
 h1, h2{
   font-weight: lighter;
@@ -24,24 +27,38 @@ h1{
   font-size: 40px;
   position: absolute;
   left: 75px;
+  top: 12px;
 }
 mark{
   color: #26669C;
   background-color: white;
 }
-header:last-child{
-  vertical-align: middle;
+header section:last-child{
+  position: relative;
+  height: 60px;
+  background: linear-gradient(#29689D,#5383AA,#29689D)
 }
 header h2{
-  height: 60px;
+  /*height: 60px;*/
+  vertical-align: middle;
+  position: absolute;
+  top: 16px;
+  left:20px;
+  color: white;
 }
 aside{
-  width: 200px;
+  width: 250px;
   display: inline-block;
   margin:20px;
 }
+aside *{
+  margin: 10px 0px;
+}
 aside span{
   color: red;
+}
+aside p{
+  font-weight: bold;
 }
 aside button{
   display: block;
@@ -59,6 +76,9 @@ aside img{
 }
 .ad h2{
   text-align: center;
+  color: white;
+  margin: 15px;
+  padding-top: 25px;
 }
 .vid-btn{
   background: linear-gradient(#6599C2,#27679C);
@@ -70,12 +90,14 @@ aside img{
 }
 .ad{
   background-image: url("images/ad_background.png");
+  height: 350px;
 }
-.ad h2{
-  color: white;
+.ad button{
+  background: linear-gradient(#80D0DE,#01C1DD);
+  width: 175px;
 }
 .center{
-  width: 500px;
+  width: 650px;
   display: inline-block;
   vertical-align: top;
 }
@@ -92,6 +114,10 @@ h3{
 .phone{
   right: 0px;
   position: absolute;
+}
+.info{
+  text-align: right;
+  vertical-align: top;
 }
 .home img{
   height: 15px;
@@ -126,6 +152,9 @@ h3{
 }
 .center section:nth-child(2) img{
   height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .center section:last-child{
   border-width: 3px 3px 0px 3px;
@@ -137,8 +166,9 @@ h3{
   display: inline-block;
 }
 .center section:last-child div{
-  width: 350px;
+  width: 480px;
   display: inline-block;
+  margin-left: 10px;
 }
 .center section:nth-child(2n) p, .center section li{
   font-size: 12px;
