@@ -3,3 +3,50 @@
   padding: 0;
   outline: 1px dotted green;
 }
+body{
+  font-family: "Arial", "Helvetica", "san serif";
+  width: 950px;
+}
+.globe{
+  height: 100px;
+  position: relative;
+}
+.globe img{
+  height: 75px;
+  display: inline-block;
+  position: absolute;
+}
+h1, h2{
+  font-weight: lighter;
+}
+h1{
+  display: inline-block;
+  font-size: 40px;
+}
+aside{
+  width: 300px;
+  display: inline-block;
+}
+.ad{
+  background-image: url("images/ad_background.png");
+}
+.ad h2{
+  color: white;
+}
+.center{
+  width: 500px;
+  display: inline-block;
+}
+.home, .phone{
+  display: inline-block;
+}
+.home img{
+  height: 15px;
+}
+.phone img{
+  height: 50px;
+  display: inline-block;
+}
+.info{
+  display: inline-block;
+}
